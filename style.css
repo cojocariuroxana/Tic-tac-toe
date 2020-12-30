@@ -1,0 +1,83 @@
+h1 {
+     text-align: center;
+     font-family: Giorgia, serif;
+     font-size: 70px;
+     color: blue;
+ }
+ 
+ #winner {
+     text-align: center;
+     font-family: Giorgia, serif;
+     font-size: 40px;
+ }
+ 
+ .center {
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ table {
+     border-collapse: collapse;
+ }
+ 
+ .cell {
+     width: 120px;
+     height: 120px;
+     background-color: white;
+     border-style: solid;
+     border-color: black;
+     border-width: 10px;
+ }
+ 
+ #c0,
+ #c1,
+ #c2 {
+     border-top: none;
+ }
+ 
+ #c2,
+ #c5,
+ #c8 {
+     border-right: none;
+ }
+ 
+ #c6,
+ #c7,
+ #c8 {
+     border-bottom: none;
+ }
+ 
+ #c0,
+ #c3,
+ #c6 {
+     border-left: none;
+ }
+ 
+ .wrapper {
+     text-align: center;
+ }
+ 
+ .button {
+     width: 150px;
+     height: 50px;
+     font-size: 20px;
+     font-family: Giorgia, serif;
+     margin-top: 30px;
+     background: rgba(0, 128, 0, 0.3)
+ }
+ 
+ .cellButton {
+     margin-left: auto;
+     margin-right: auto;
+     width: 120px;
+     height: 120px;
+     font-size: 40px;
+     font-family: Giorgia, serif;
+     border-style: none;
+ }
+ 
+ #selector {
+     width: 150px;
+     height: 50px;
+     float: inline-start
+ }
